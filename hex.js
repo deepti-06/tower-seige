@@ -8,5 +8,7 @@ class Hex extends BaseClass {
       //this.body.position.x = mouseX;
       //this.body.position.y = mouseY;
       super.display();
+        imageMode(CENTER)
+        image(this.image,0,0,50,50)
     }
   }
